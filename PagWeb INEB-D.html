@@ -1,0 +1,238 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituto Nacional De Educación Básica Y Diversificado</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #000036;
+            color: #0e135e;
+        }
+
+        h1, h2 {
+            font-family: 'Georgia', serif;
+            color: #caa732;
+        }
+
+        h1 {
+            font-size: 2.5em;
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            color: #34495e;
+            border-bottom: 2px solid #003d66;
+            padding-bottom: 5px;
+        }
+
+        /* Estilo de botones */
+        a.button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #002035;
+            color: rgb(216, 216, 216);
+            border-radius: 25px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        a.button:hover {
+            background-color: #bde5ff;
+        }
+
+        /* Estilo del header */
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #0b3b5a;
+            color: rgb(207, 207, 207);
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+
+        /* Estilo del contenido principal */
+        .content {
+            width: 80%;
+            margin: 40px auto;
+            background-color: rgb(212, 212, 212);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        .modules, .comments, .publications, .gallery, .contact-info {
+            border-left: 5px solid #2980b9;
+            padding: 20px;
+            background-color: #d4d4d4;
+            border-radius: 5px;
+        }
+
+        .modules p, .comments p, .publications li, .gallery li, .contact-info p {
+            margin-bottom: 10px;
+        }
+
+        .publications ul, .gallery ul {
+            padding-left: 20px;
+        }
+
+        .publications li, .gallery li {
+            list-style: square;
+        }
+
+        /* Estilos del footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2c3e50;
+            color: white;
+        }
+
+        /* Estilos del menú de navegación */
+        .menu {
+            margin: 20px 0;
+            text-align: center;
+            padding: 10px;
+            background-color: #ecf0f1;
+            border-radius: 5px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        .menu a {
+            margin: 0 15px;
+            padding: 10px 15px;
+            color: #2980b9;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease, background-color 0.3s ease;
+        }
+
+        .menu a:hover {
+            color: white;
+            background-color: #2980b9;
+            border-radius: 5px;
+        }
+
+        /* Estilos de la galería de fotos */
+        .gallery img {
+            max-width: 50%;
+            border-radius: 5px;
+        }
+
+        /* Estilos para la información de contacto */
+        .contact-info p {
+            font-size: 1.1em;
+            margin: 5px 0;
+        }
+
+        /* Estilo para contenido editable */
+        [contenteditable="true"] {
+            background-color: #eaf2f8;
+            border: 1px solid #2980b9;
+            padding: 10px;
+            border-radius: 5px;
+            outline: none;
+        }
+
+        /* Estilo responsive */
+        @media (max-width: 768px) {
+            .content {
+                width: 90%;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Instituto Nacional De Educación Básica Y Diversificado               
+                 "Sergio Leonel Celis Navas"</h1>
+        <p>El Instituto Nacional De Educación Básica Y Diversificado "Sergio Leonel Celis Navas" ofrece una educación de calidad para todos los estudiantes.</p>
+        <p> Niveles
+            Básicos - Diversificado,
+            Contamos Con Las Siguientes Carreras -
+            Perito Contador y Bachillerato en Ciencias y Letras con Orientación en Computación </p>
+    </header>
+
+    <div class="content">
+
+        <section class="modules">
+            <h2>Módulos de Aprendizaje</h2>
+            <p><strong>Aprendizaje Basado en Proyectos:</strong> Nuestros módulos fomentan la creatividad y el pensamiento crítico a través de proyectos prácticos.</p>
+            <p><strong>Tecnología Educativa:</strong> Integramos plataformas digitales de aprendizaje para experiencias interactivas y personalizadas.</p>
+            <p><strong>Desarrollo de Habilidades del Siglo XXI:</strong> Fomentamos la comunicación, la colaboración y el pensamiento crítico para el éxito en el mundo actual.</p>
+        </section>
+
+        <section class="comments">
+            <h2>Comentarios de Estudiantes</h2>
+            <p contenteditable="true"><strong>Experiencia Académica:</strong> Me encanta la forma en que los profesores nos animan a explorar nuestras ideas y a pensar de manera crítica. El ambiente de aprendizaje es dinámico y estimulante.</p>
+            <p contenteditable="true"><strong>Ambiente Escolar:</strong> El Instituto Nacional De Educación Básica Y Diversificado se siente como una familia. Todos somos muy unidos y nos apoyamos mutuamente. Es un lugar donde puedo ser yo mismo y crecer como persona.</p>
+        </section>
+
+        <section class="publications">
+            <h2>Publicaciones Destacadas</h2>
+            <ul>
+                <li><strong><strong>Éxitos de Nuestros Estudiantes:</strong> Los seleccionados del Instituto Nacional De Educación Básica Y Diversificado han conseguido el segundo lugar en el torneo de selecciones de futsal.</li>
+                <li><strong><strong>Eventos del Centro Educativo:</strong> Presentaciones de proyectos, banda escolar, actividades extracurriculares y actividades cívicas.</li>
+                <li><strong><strong>Recursos Educativos:</strong> Publicación de artículos y guías para el aprendizaje en diferentes áreas.</li>
+                <li><strong><strong>Colaboración con la Comunidad:</strong> Prepara a cada uno de nuestros jóvenes, para que Sumpango tenga excelentes profesionales.</li>
+            </ul>
+        </section>
+
+        <section class="gallery">
+            <h2>Galería de Fotos</h2>
+            <ul>
+                <li><strong>Ceremonia de Graduación:</strong> Celebración de los logros de nuestros estudiantes al culminar sus estudios.</li>
+                <img src="gradu.png">
+                <li><strong>Eventos Deportivos:</strong> Fomentando la actividad física y el trabajo en equipo.</li>
+                <img src="Dep.png">
+                <li><strong>Eventos Culturales:</strong> Expresión a la Patria.</li>
+                <img src="Civic.png">
+            </ul>
+            </ul>
+        </section>
+
+        <section class="contact-info">
+            <h2>Información de Contacto</h2>
+            <p><strong><strong>Teléfono:</strong> 7833-1687 o 4460-6775</p>
+            <p><strong><strong>Correo Electrónico:</strong></p>
+            <p><strong><strong>Dirección:</strong> Avenida Del Niño, Zona 4, Sumpango, Guatemala</p>
+            <p><strong>Sitio Web:</strong> <a href="https://www.facebook.com/profile.php?id=100063559627992&sk=about" target="_blank" contenteditable="false">https://www.facebook.com/profile.php?id=100063559627992&sk=about</a></p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Instituto Nacional De Educación Básica Y Diversificado</p>
+    </footer>
+
+    <nav class="menu">
+        <a href="#">Inicio</a>
+        <a href="#">Acerca de Nosotros</a>
+        <a href="#">Módulos de Aprendizaje</a>
+        <a href="#">Galería de Fotos</a>
+        <a href="#">Comentarios de Estudiantes</a>
+        <a href="#">Información de Contacto</a>
+    </nav>
+
+</body>
+</html>
